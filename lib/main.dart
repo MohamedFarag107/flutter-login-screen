@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'homescreen.dart';
+import 'package:flutter_app/messengerscreen.dart';
+//import 'homescreen.dart';
 void main() {
   runApp(MyApp());
 }
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: App(),
+      home: Messenger(),
     );
   }
 
